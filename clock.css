@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:skyblue;
+}
+
+.clock{
+    height: 400px;
+    width: 400px;
+    background-image: url("./clock.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: relative;
+}
+.point{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50%;
+}
+.set{
+   left: 50%;
+   bottom: 50%;
+   position: absolute;
+   transform: translate(-50%);
+   transform-origin: bottom;
+    
+}
+.h{
+    height: 100px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.m{
+    height: 110px;
+    width: 6px;
+    background-color: blueviolet;
+    border-radius: 10px;
+   
+}
+.s{
+    height: 120px;
+    width: 3px;
+    background-color: red;
+    border-radius: 10px;   
+}
